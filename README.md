@@ -15,6 +15,8 @@ Before getting started, please check that you have installed all dependencies (D
 
 ## Getting started
 
+**Please note:** At the moment, Controllify only works on Windows, due to the Windows specific code in 'keyboard.py'.
+
 To run Controllify virtually (without switchbox hardware), you need to install a COM port emulator (i.e. com0com). Once installed, create COM ports 4 and 5 and link them together so that a bytes written to one will appear on the other. Once done, launch the Controllify server (Controllify.bat) and the TX emulator (/emulator/launch_tx.bat). Inside of the emulator, try the following commands and if everything is working properly, Spotify should respond:
 
 * play
